@@ -103,7 +103,6 @@ SELECT *,
         ELSE 'Fail'
     END AS performance
 FROM exam_results;
-```
  
 PostgreSQL evaluates conditions top to bottom and stops at the first match, so order matters. The `ELSE` clause covers anything that falls outside your defined conditions. Without it, unmatched rows return `NULL`.
  
