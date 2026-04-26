@@ -1,18 +1,10 @@
--- Select all data from assignment.Customers table
-SELECT * FROM assignment.Customers;
-
--- Select all data from assignment.Products table
-SELECT * FROM assignment.Products;
-
--- Select all data from assignment.Sales table
-SELECT * FROM assignment.Sales;
-
--- Select all data from assignment.Inventory table
-SELECT * FROM assignment.Inventory;
-
 -- =====================================================
 -- ADVANCED ANALYTICAL QUESTIONS
 -- =====================================================
+SELECT * FROM assignment.Customers;
+SELECT * FROM assignment.Products;
+SELECT * FROM assignment.Sales;
+SELECT * FROM assignment.Inventory;
 
 -- 81. Which customers bought products in more than one category?
 SELECT c.customer_id,
